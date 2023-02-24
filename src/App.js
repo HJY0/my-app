@@ -1,22 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import logo, { ReactComponent as Logo } from "./logo.svg";
+import "./App.css";
+import { CountButton } from "./CountButton";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img tabIndex={0} src={logo} className="App-logo" alt="logo" /> */}
+        <Logo />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>리액트 시작합니다.</p>
+        <CountButton />
       </header>
     </div>
   );
