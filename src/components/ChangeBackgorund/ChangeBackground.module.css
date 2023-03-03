@@ -1,0 +1,12 @@
+.ChangeBackground {
+  padding: 40px;
+  margin: 100px;
+  border: 4px solid currentColor;
+}
+
+.Box {
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+  border: 1px solid currentColor;
+}
